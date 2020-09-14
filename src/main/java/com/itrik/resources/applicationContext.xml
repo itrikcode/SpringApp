@@ -21,5 +21,12 @@
 					<value>python</value>
 				</set>
 			</property>
+			<property name="eno_And_Factory">
+				<map>
+					<entry key="E-111" value="Steel"/>
+					<entry key="E-222" value="software"/>
+					<entry key ="E-333" value="Manufacturing"/>
+				</map>
+			</property>
 		</bean>
 </beans>

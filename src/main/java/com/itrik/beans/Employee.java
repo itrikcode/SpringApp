@@ -1,7 +1,9 @@
 package com.itrik.beans;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
+
 
 public class Employee {
 
@@ -11,6 +13,15 @@ public class Employee {
 
 	private List<String> equalification;
 	private Set<String> ecources;
+	private Map<String, String> eno_And_Factory;
+
+	public Map<String, String> getEno_And_Factory() {
+		return eno_And_Factory;
+	}
+
+	public void setEno_And_Factory(Map<String, String> eno_And_Factory) {
+		this.eno_And_Factory = eno_And_Factory;
+	}
 
 	public Set<String> getEcources() {
 		return ecources;
@@ -60,6 +71,7 @@ public class Employee {
 		System.out.println("Employee Address         ===> "+eaddr);
 		System.out.println("Employee Qualification ===> "+equalification);
 		System.out.println("Employee Cources          ===> "+ecources);
+		System.out.println("Employee Factoryes       ===> "+eno_And_Factory );
 	}
 
 }
