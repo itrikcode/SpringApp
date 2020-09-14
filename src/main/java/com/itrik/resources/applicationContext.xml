@@ -14,5 +14,12 @@
 					<value>Phd</value>
 				</list>
 			</property>
+			<property name="ecources">
+				<set>
+					<value>C/C++</value>
+					<value>Java</value>
+					<value>python</value>
+				</set>
+			</property>
 		</bean>
 </beans>

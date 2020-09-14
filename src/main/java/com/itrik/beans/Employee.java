@@ -1,6 +1,7 @@
 package com.itrik.beans;
 
 import java.util.List;
+import java.util.Set;
 
 public class Employee {
 
@@ -9,6 +10,15 @@ public class Employee {
 	private String eaddr;
 
 	private List<String> equalification;
+	private Set<String> ecources;
+
+	public Set<String> getEcources() {
+		return ecources;
+	}
+
+	public void setEcources(Set<String> ecources) {
+		this.ecources = ecources;
+	}
 
 	public int getEid() {
 		return eid;
@@ -45,10 +55,11 @@ public class Employee {
 	public void getEmployee() {
 		System.out.println("Employee Details");
 		System.out.println("---------------------------------");
-		System.out.println("Employee Id ===> "+eid);
-		System.out.println("Employee Name ====> "+ename);
-		System.out.println("Employee Address ===> "+eaddr);
+		System.out.println("Employee Id                    ===> "+eid);
+		System.out.println("Employee Name             ===> "+ename);
+		System.out.println("Employee Address         ===> "+eaddr);
 		System.out.println("Employee Qualification ===> "+equalification);
+		System.out.println("Employee Cources          ===> "+ecources);
 	}
 
 }
